@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\boxicons.min.css" />
+    <Content Include="Content\devicons.min.css" />
     <Content Include="Content\icofont.min.css" />
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\remixicon.css" />
@@ -93,6 +94,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\devicons.ttf" />
+    <Content Include="Content\devicons.woff" />
+    <Content Include="Content\remixicon.woff" />
+    <Content Include="Content\remixicon.woff2" />
+    <Content Include="Content\fonts\icofont.woff" />
+    <Content Include="Content\fonts\icofont.woff2" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
