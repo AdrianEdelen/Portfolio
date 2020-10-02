@@ -1178,3 +1178,33 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# modal styling
+--------------------------------------------------------------*/
+
+.modal-background-color {
+    background-color: #171717;
+}
+.modal-full {
+    min-width: 60%;
+}
+
+.modal-full .modal-content {
+    min-height: 40vh;
+}
+
+.modal-body-rounded-corner {
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+    border-bottom-right-radius: calc(.3rem - 1px);
+    border-bottom-left-radius: calc(.3rem - 1px)
+}
+
+.min-height25 {
+    min-height: 15vh;
+}
+.project-button-bottom {
+    position: absolute;
+    bottom: 0;
+}
