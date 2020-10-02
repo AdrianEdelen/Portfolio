@@ -1208,3 +1208,7 @@ section .container {
     position: absolute;
     bottom: 0;
 }
+.app-photo-max-size {
+    max-height: 400px;
+    max-width: 400px;
+}

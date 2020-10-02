@@ -77,7 +77,16 @@
     <Content Include="Content\venobox.css" />
     <Content Include="img\apple-touch-icon.png" />
     <Content Include="img\bg.jpg" />
+    <Content Include="img\blog.jpg" />
+    <Content Include="img\bug.jpeg" />
+    <Content Include="img\dog.jpg" />
     <Content Include="img\favicon.png" />
+    <Content Include="img\finance.jpg" />
+    <Content Include="img\financeapi.jpg" />
+    <Content Include="img\FizzBuzz.jpg" />
+    <Content Include="img\math.jpg" />
+    <Content Include="img\sunset.jpg" />
+    <Content Include="img\tacocat.png" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\counterup.min.js" />
