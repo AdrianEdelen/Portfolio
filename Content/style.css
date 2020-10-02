@@ -1212,3 +1212,7 @@ section .container {
     max-height: 400px;
     max-width: 400px;
 }
+.project-button-top {
+    position: absolute;
+    top: 10px;
+}
