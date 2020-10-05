@@ -1216,3 +1216,7 @@ section .container {
     position: absolute;
     top: 10px;
 }
+.modal-picturesmax400 {
+    width: 100%;
+    max-width: 400px;
+}
