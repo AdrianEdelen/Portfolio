@@ -1194,13 +1194,13 @@ section .container {
     min-height: 40vh;
 }
 
-.modal-body-rounded-corner {
+/*.modal-body-rounded-corner {
     border-top-left-radius: calc(.3rem - 1px);
     border-top-right-radius: calc(.3rem - 1px);
     border-bottom-right-radius: calc(.3rem - 1px);
     border-bottom-left-radius: calc(.3rem - 1px)
 }
-
+*/
 .min-height25 {
     min-height: 15vh;
 }
