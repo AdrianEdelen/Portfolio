@@ -1187,7 +1187,7 @@ section .container {
     background-color: #171717;
 }
 .modal-full {
-    min-width: 60%;
+    min-width: 40%;
 }
 
 .modal-full .modal-content {
@@ -1202,7 +1202,7 @@ section .container {
 }
 */
 .min-height25 {
-    min-height: 15vh;
+    min-height: 10vh;
 }
 .project-button-bottom {
     position: absolute;
