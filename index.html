@@ -398,7 +398,6 @@
 		</div>
 	</section><!-- End Contact Section -->
 	<!-- modals -->
-
 	<!-- modal 1 - Bug Tracker -->
 
 	<div class="modal fade" id="topLeft">
@@ -578,7 +577,7 @@
 							<div class="col-5">
 							</div>
 							<div class="col">
-								<a href="https://sunsethills-adrian-edelen.netlify.app/" target="_blank"  class="btn btn-dark float-right"><span class="min-height25"></span>Check it out!</a>
+								<a href="https://sunsethills-adrian-edelen.netlify.app/" target="_blank" class="btn btn-dark float-right"><span class="min-height25"></span>Check it out!</a>
 							</div>
 						</div>
 					</div>
@@ -666,6 +665,8 @@
 	<script src="Scripts\main.js"></script>
 	<!--EmailJS script-->
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<!-- SweetAlert -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<script type="text/javascript">
 		emailjs.init('user_qMHcx30xAAzCvnUFKSZXO')
 	</script>
@@ -693,7 +694,7 @@
 					emailjs.sendForm(serviceID, templateID, this)
 						.then(() => {
 							btn.value = 'Send Email';
-							alert('Sent!');
+							swal("Sent!", "I will get back to you ASAP!", "success");
 						}, (err) => {
 							btn.value = 'Send Email';
 							alert(JSON.stringify(err));
