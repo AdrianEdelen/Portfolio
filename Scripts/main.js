@@ -83,6 +83,8 @@
       $('.mobile-nav-overly').toggle();
     });
 
+
+      // HERE is the problem with home button.
     $(document).click(function(e) {
       var container = $(".mobile-nav, .mobile-nav-toggle");
       if (!container.is(e.target) && container.has(e.target).length === 0) {

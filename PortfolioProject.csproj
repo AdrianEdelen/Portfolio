@@ -90,6 +90,7 @@
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\counterup.min.js" />
+    <Content Include="Scripts\Custom.js" />
     <Content Include="Scripts\isotope.pkgd.min.js" />
     <Content Include="Scripts\jquery.easing.min.js" />
     <Content Include="Scripts\jquery.min.js" />
