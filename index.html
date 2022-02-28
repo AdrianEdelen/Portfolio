@@ -363,8 +363,7 @@
 							   name="email"
 							   id="email"
 							   placeholder="Your Email"
-							   data-rule="email"
-							   data-msg="Please enter a valid email" />
+							    />
 						<div class="validate"></div>
 					</div>
 				</div>
@@ -680,7 +679,7 @@
 				let subject = document.getElementById("subject").value;
 				let message = document.getElementById("message").value;
 				let email = document.getElementById("email").value;
-				if (name.length < 1 || subject.length < 1 || message === "" || !email.includes("@", ".")) {
+				if (name.length < 1 || subject.length < 1 || message === "" ) {
 					return;
 				} else {
 
